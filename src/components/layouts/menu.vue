@@ -1,9 +1,12 @@
 <template>
-  <q-layout ref="layout" view="lHr LpR lFf" :right-breakpoint="1100">
+  <q-layout ref="layout" view="hHh Lpr lff" :right-breakpoint="1100">
     <q-toolbar slot="header">
       <q-btn flat @click="$refs.layout.toggleLeft()">
         <q-icon name="menu" />
       </q-btn>
+      <q-avater>
+        <img src="~/statics/title.png">
+        </q-avater>
       <q-toolbar-title>
         Administration Portal
         <div slot="subtitle">{{ title }}</div>
